@@ -1,0 +1,53 @@
+Aouame Hafsa
+
+maven -v version 3.6.0
+
+contient classes: stocker fichiers class apres compi
+
+cp: donne chemin à JDK pour trouver les classes
+
+1.7 comme le source pour que ce soit compatible avec JVM 1.7
+
+ou modif pour bjr: javaavance/td00/src/main/java/fr/dauphine/ja/aouamehafsa/td00 
+java -cp target/classes fr.dauphine.ja.nomprenom.td00.App
+
+td00-1.0-SNAPSHOT.jar
+
+ System.out.println();
+
+@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
+	}
+
+public static void main(String[] args) {
+		
+	}
+
+public int getToto() {
+	return toto;
+}
+
+public void setToto(int toto) {
+		this.toto = toto;
+}
+
+ S ́electionner le nom de la classe. Que se passe t-il si l’on tapeAlt+Shift+R? possibilité de renommer la classe
+pareil pour toto
+
+GIT JUNIT
+
+liste des fichiers qui doivent faire partie des sources du projet td00: PrimeCollection.java, PrimeCollectionTest.java
+
+public static void main (String[] args){
+                        PrimeCollection pc= new PrimeCollection();
+-                       pc.initRandom(100,1000);
++                       pc.initRandom(100,2000);
+                        pc.printPrimes();
+                        pc.initRandom(1,1);
+                        pc.printPrimes();
+
+
+
+https://github.com/Dauphine-Java-M1/td-aouaha19.git

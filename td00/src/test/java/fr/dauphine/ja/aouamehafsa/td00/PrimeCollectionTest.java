@@ -34,7 +34,7 @@ public class PrimeCollectionTest extends TestCase {
 	    
 	    public static void main (String[] args){
 			PrimeCollection pc= new PrimeCollection();
-			pc.initRandom(100,1000);
+			pc.initRandom(100,2000);
 			pc.printPrimes();
 			pc.initRandom(1,1);
 			pc.printPrimes();
